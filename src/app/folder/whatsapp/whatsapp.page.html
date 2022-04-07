@@ -1,0 +1,83 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>whatsapp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-segment>
+  <ion-segment-button value="camera">
+    <ion-icon name="camera"></ion-icon>
+  </ion-segment-button>
+  <ion-segment-button value="chats">
+    <ion-label>Chats</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="status">
+    <ion-label>Status</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="calls">
+    <ion-label>Calls</ion-label>
+  </ion-segment-button>
+</ion-segment>
+
+<ion-content>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="chatbox-ellipses"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <div class="ion-padding">
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="assets/profile-1.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Name</h2>
+        <p><ion-icon class="read" name="checkmark-done"></ion-icon> Hi there</p>
+      </ion-label>
+      <ion-label slot="end" class="ion-text-right">
+        <p>07-04-2022</p>
+        <p>&nbsp;</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="assets/profile-1.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Name</h2>
+        <p>Hi there</p>
+      </ion-label>
+      <ion-label slot="end" class="ion-text-right">
+        <p>07-04-2022</p>
+        <p>&nbsp;</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="assets/profile-1.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Name</h2>
+        <p>Hi there</p>
+      </ion-label>
+      <ion-label slot="end" class="ion-text-right">
+        <p>07-04-2022</p>
+        <p>&nbsp;</p>
+      </ion-label>
+    </ion-item>
+  </div>
+</ion-content>
