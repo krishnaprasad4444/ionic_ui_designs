@@ -1,0 +1,7 @@
+{
+  "name": "simple_ui_elements",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
